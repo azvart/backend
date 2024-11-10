@@ -1,1 +1,1 @@
-{  "version": 2,  "rewrites": [{    "source": "/(.*)",    "destination": "/api"  }]}
+{  "version": 2,  "buildCommands": "npm run build",  "installCommands": "npm install",  "outputDirectory": "dist",  "public": false}
